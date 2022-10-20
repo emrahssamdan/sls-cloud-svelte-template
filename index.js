@@ -1,7 +1,7 @@
 import { api, data } from "@serverless/cloud";
 
 api.get("/api/healthcheck", (req, res) => {
-  res.status(200).send("hello worldieaa!");
+  res.status(200).send("hello world!");
 });
 
 data.on(["created", "updated"], async (event) => {
